@@ -1,0 +1,14 @@
+
+[credential "https://github.com"]
+	username = jpirees
+	helper = "!f() { test \"$1\" = get && echo \"password=$(cat $HOME/.secret)\"; }; f"
+
+[user]
+	name = Junior Pires
+	email = jnr-pires@hotmail.com
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = code --wait --new-window
