@@ -137,17 +137,17 @@ ex ()
 }
 
 # DOTNET
-export DOTNET_ROOT=/usr/share/dotnet
+#export DOTNET_ROOT=/usr/share/dotnet
 
-export PATH=$PATH:$DOTNET_ROOT
-export PATH=$PATH:$HOME/.dotnet/tools
+#export PATH=$PATH:$DOTNET_ROOT
+#export PATH=$PATH:$HOME/.dotnet/tools
 
-export MSBuildSDKsPath=$DOTNET_ROOT/sdk/$(${DOTNET_ROOT}/dotnet --version)/Sdks
-export DOTNET_CLI_TELEMETRY_OPTOUT=1
-export ASPNETCORE_ENVIRONMENT=Development
+#export MSBuildSDKsPath=$DOTNET_ROOT/sdk/$(${DOTNET_ROOT}/dotnet --version)/Sdks
+#export DOTNET_CLI_TELEMETRY_OPTOUT=1
+#export ASPNETCORE_ENVIRONMENT=Development
 
 # DETA
-export PATH="/home/junior/.deta/bin:$PATH"
+#export PATH="/home/junior/.deta/bin:$PATH"
 
 # NVM
 source /usr/share/nvm/init-nvm.sh
